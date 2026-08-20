@@ -13,3 +13,10 @@ timmy.shape("turtle")
 timmy.colour("blue")
 my_screen=Screen()
 print(my_screen.canvheight)
+
+import prettytable  import Prettytable
+table= Prettytable()
+table.add_column("Pokemon Name", ["Pikachu", "Squirtle", "Charmander"])
+table.add_column("Field Type", ["Electric", "Water", "Fire"])
+table.align="l"
+print(table)
